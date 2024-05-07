@@ -1,8 +1,16 @@
 # Análise de Mercado de Games :video_game:
 Uma análise de vendas de games para PS4, compreendidos no período de 2013-2018, na América do Norte, Europa, Japão e Resto do Mundo.<br>
-Os dados foram obtidos do site Kaggle.<br>
-Link do Dataset: https://www.kaggle.com/datasets/sidtwr/videogames-sales-dataset<br>
-Código completo: https://github.com/FranciscoAlveJr/Mercado-de-games/blob/6e0db8d05fc4b928006a21eed8a0c498ad40a891/Mercado_de_Games.ipynb
+Os dados foram obtidos do site Kaggle, feito por VzCharts.
+<br>
+<br>
+Link do Dataset: https://www.kaggle.com/datasets/sidtwr/videogames-sales-dataset
+<br>
+<br>
+Código completo: [https://github.com/FranciscoAlveJr/Mercado-de-games](/Mercado_de_Games.ipynb)
+<br>
+<br>
+> [!NOTE]
+> Este projeto possui como único propósito para uso acadêmico e estudo pessoal.
 ## Importando Bibliotecas
 ```
 import numpy as np
