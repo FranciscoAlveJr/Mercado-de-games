@@ -24,7 +24,7 @@ df = pd.read_csv('PS4_GamesSales.csv', encoding='latin-1')
 |3|Red Dead Redemption 2|2018\.0|Action-Adventure|Rockstar Games|5\.26|6\.21|0\.21|2\.26|13\.94|
 |4|Call of Duty: WWII|2017\.0|Shooter|Activision|4\.67|6\.21|0\.4|2\.12|13\.4|
 |5|FIFA 18|2017\.0|Sports|EA Sports|1\.27|8\.64|0\.15|1\.73|11\.8|
-### Visualizando o número de linhas e colunas
+## Visualizando o número de linhas e colunas
 ```
 df.shape
 ```
@@ -32,7 +32,7 @@ Resultado: (1034, 9)<br>
 Ou seja, a tabela possui 1034 linhas e 9 colunas
 <br>
 <br>
-### Visualizando os nomes das colunas
+## Visualizando os nomes das colunas
 ```
 df.columns
 ```
@@ -46,12 +46,9 @@ df.isnull().sum()
 |0|209|0|209|0|0|0|0|0|
 
 Foram encontrados 209 valores nulos
-```
-plt.figure(figsize=(14, 5))
-plt.title('Verificando campos nulos')
-sns.heatmap(df.isnull(), cbar=False);
-```
+<br>
 ![grafico_nulos](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/dec30739-9ac0-464e-b8bd-f6a5e949bffc)
+
 ## Removendo valores nulos
 ```
 df.dropna(inplace=True)
@@ -92,13 +89,7 @@ df = df.astype({'Year': int})
 
 Agora os valores dos anos não apresentam mais ponto flutuante.
 ## Verificando Vendas Globais
-```
-plt.figure(figsize=(10, 5))
-plt.title('Vendas Globais (MI)', loc='left', fontsize=14)
-sns.barplot(data=df, x='Year', y='Global', ci=None, estimator=sum)
-plt.ylabel('QUANTIDADE DE VENDAS (MI)')
-plt.xlabel('ANO');
-```
+
 ![grafico_vendas_globais](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/97de76d1-e2e1-463b-a374-a0e4ae45c184)<br>
 É possível analisar que, houve um pico de vendas entre 2015 e 2016. Vendo pelo ponto de vista do mercado, o PlayStation 4 foi lançado em 2013, então é fácil presumir que o aumento nas vendas dos jogos se deve ao aumento das vendas do console nos anos seguintes.
 <br>
@@ -150,7 +141,7 @@ Top 10 gêneros mais vendidos no PS4 (2013-2018)
 
 ![grafico_generos](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/f86eeff7-ebeb-4a26-8f46-f9e1bf9656a0)
 <br>
-### Top 10 Jogos
+## Top 10 Jogos
 Top 10 jogos mais vendidos para PS4 no mundo (2013-2018)<br>
 |index|Game|Global|
 |---|---|---|
@@ -166,7 +157,7 @@ Top 10 jogos mais vendidos para PS4 no mundo (2013-2018)<br>
 |10|Fallout 4|8\.48|
 
 ![grafico_jogos](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/acbff48a-f447-4968-bbda-db7856a777d4)
-### Top 10 América do Norte
+## Top 10 América do Norte
 Top 10 jogos mais vendidos para PS4 na América do Norte (2013-2018)<br>
 |index|Game|North America|
 |---|---|---|
@@ -183,7 +174,7 @@ Top 10 jogos mais vendidos para PS4 na América do Norte (2013-2018)<br>
 
 ![grafico_america](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/b387940b-ff76-48fa-b98d-74735e1545f3)
 <br>
-### Top 10 Europa
+## Top 10 Europa
 Top 10 jogos mais vendidos para PS4 na Europa (2013-2018)
 |index|Game|Europe|
 |---|---|---|
@@ -200,7 +191,7 @@ Top 10 jogos mais vendidos para PS4 na Europa (2013-2018)
 
 ![grafico_europa](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/b577597e-7ffe-44da-8fb2-9cca3054d460)
 <br>
-### Top 10 Japão
+## Top 10 Japão
 Top 10 jogos mais vendidos para PS4 no Japão (2013-2018)
 |index|Game|Japan|
 |---|---|---|
@@ -219,7 +210,7 @@ Top 10 jogos mais vendidos para PS4 no Japão (2013-2018)
 <br>
 Aqui vale ressaltar que no Japão se diferencia dos outros países, tanto nos jogos, quanto nos gêneros.
 <br>
-### Top 10 Resto do Mundo
+## Top 10 Resto do Mundo
 Top 10 jogos mais vendidos para PS4 no resto do mundo (2013-2018)
 |index|Game|Rest of World|
 |---|---|---|
@@ -247,5 +238,5 @@ Com quase 140 milhões de cópias vendidas, o gênero de **AÇÃO**, foi o mais 
 <br>
 ## O CAMPEÃO 🥇 DOS JOGOS...
 ![gta_v](https://static0.gamerantimages.com/wordpress/wp-content/uploads/GTA-V-Protagonists.jpg?q=50&fit=crop&w=1500&dpr=1.5)<br>
-Com quase 20 milhões de cópias vendidas, Grand Theft Auto V (ou GTA V) foi o jogo que mais vendeu cópias no console PS4
+Com quase 20 milhões de cópias vendidas, Grand Theft Auto V (ou GTA V) foi o jogo que mais vendeu cópias no console PS4.<br>
 Lembrando que esses dados compreendem os anos de 2013-2018
