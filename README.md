@@ -1,4 +1,4 @@
-# Análise de Mercado de Games
+# Análise de Mercado de Games :video_game:
 Uma análise de vendas de games para PS4, compreendidos no período de 2013-2018, na América do Norte, Europa, Japão e Resto do Mundo.<br>
 Os dados foram obtidos do site Kaggle.<br>
 Link do Dataset: https://www.kaggle.com/datasets/sidtwr/videogames-sales-dataset<br>
