@@ -2,7 +2,7 @@
 Uma análise de vendas de games para PS4, compreendidos no período de 2013-2018, na América do Norte, Europa, Japão e Resto do Mundo.<br>
 Os dados foram obtidos do site Kaggle.<br>
 Link do Dataset: https://www.kaggle.com/datasets/sidtwr/videogames-sales-dataset<br>
-Código completo: https://colab.research.google.com/github/FranciscoAlveJr/Mercado-de-games/blob/main/Mercado_de_Games.ipynb
+Código completo: https://github.com/FranciscoAlveJr/Mercado-de-games/blob/6e0db8d05fc4b928006a21eed8a0c498ad40a891/Mercado_de_Games.ipynb
 ## Importando Bibliotecas
 ```
 import numpy as np
