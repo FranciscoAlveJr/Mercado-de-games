@@ -100,8 +100,7 @@ Agora os valores dos anos não apresentam mais ponto flutuante.
 
 ![grafico_vendas_globais](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/97de76d1-e2e1-463b-a374-a0e4ae45c184)<br>
 É possível analisar que, houve um pico de vendas entre 2015 e 2016. Vendo pelo ponto de vista do mercado, o PlayStation 4 foi lançado em 2013, então é fácil presumir que o aumento nas vendas dos jogos se deve ao aumento das vendas do console nos anos seguintes.
-<br>
-<br>
+## Mais de 10 milhões
 Os jogos que venderam mais de 10 milhões de cópias<br>
 |index|Game|Year|Genre|Publisher|North America|Europe|Japan|Rest of World|Global|
 |---|---|---|---|---|---|---|---|---|---|
