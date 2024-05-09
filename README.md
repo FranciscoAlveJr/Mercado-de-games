@@ -76,7 +76,7 @@ df.dropna(inplace=True)
 |1029|Code Vein|2018\.0|Action|Bandai Namco Entertainment|0\.0|0\.0|0\.0|0\.0|0\.0|
 |1031|Radial G Racing Revolved|2017\.0|Racing|Tammeka Games|0\.0|0\.0|0\.0|0\.0|0\.0|
 
-Usando o `df.shape` novamente, o número de linhas cai para 825, após a remoção dos valores nulos.
+Usando o `df.shape` novamente para visualizar, o número de linhas caiu para 825, após a remoção dos valores nulos.
 <br>
 <br>
 Foi preciso tirar valores com anos de 2019 e 2020, pois existem valores desprezíveis
