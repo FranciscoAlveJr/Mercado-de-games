@@ -12,30 +12,6 @@ Código completo: [https://github.com/FranciscoAlveJr/Mercado-de-games](/Mercado
 > [!NOTE]
 > Este projeto possui como único propósito para uso acadêmico e estudo pessoal.<br>
 
-*******
-Sumário
-1. [Importando Bibliotecas](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#importando-bibliotecas)<br>
-2. [Importando o dataset](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#importando-o-banco-de-dados-do-dataset)<br>
-3. [Visualizando o número de linhas e colunas](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#visualizando-o-n%C3%BAmero-de-linhas-e-colunas)
-4. [Visualizando os nomes das colunas](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#visualizando-os-nomes-das-colunas)
-5. [Verificando valores nulos](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#verificando-valores-nulos)
-6. [Removendo valores nulos](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#removendo-valores-nulos)
-7. [Convertendo os anos, de decimal para inteiro](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#convertendo-os-anos-de-decimal-para-inteiro)
-8. [Verificando Vendas Globais](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#verificando-vendas-globais)
-9. [Mais de 10 milhões](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#mais-de-10-milh%C3%B5es)
-10. [Análise por continente](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#an%C3%A1lise-por-continente)
-11. [Top 10 Desenvolvedoras](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-desenvolvedoras)
-12. [Top 10 Gêneros](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-g%C3%AAneros)
-13. [Top 10 Jogos](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-jogos)
-14. [Top 10 América do Norte](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-am%C3%A9rica-do-norte)
-15. [Top 10 Europa](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-europa)
-16. [Top 10 Japão](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-jap%C3%A3o)
-17. [Top 10 Resto do Mundo](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-resto-do-mundo)
-18. [CONCLUSÃO](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#conclus%C3%A3o)
-19. [CAMPEÃ DAS DESENVOLVEDORAS](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#a-campe%C3%A3--das-desenvolvedoras-foi)
-20. [GÊNERO MAIS VENDIDO](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#o-g%C3%AAnero-mais-vendido--foi-de)
-21. [CAMPEÃO DOS JOGOS](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#o-campe%C3%A3o--dos-jogos)
-*******
 ## Importando Bibliotecas
 ```
 import numpy as np
