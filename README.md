@@ -116,7 +116,7 @@ Os jogos que venderam mais de 10 milhões de cópias<br>
 |7|Uncharted \(PS4\)|2016|Action|Sony Interactive Entertainment|4\.49|3\.93|0\.21|1\.7|10\.33|
 
 ## Análise por continente
-![graficos_pizza](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/a946ae64-0a5e-4fce-ae87-daa507f50d23)<br>
+![graficos_pizza](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/5168552d-63f4-4c0f-aa81-da691bc65274)<br>
 O continente Europeu teve um maior número de vendas, mesmo em relação a América do Norte, que, apesar de compreender apenas Canadá e EUA, é um mercado de larga escala, principalmente, considerando os EUA.
 
 ## Top 10 Desenvolvedoras
@@ -127,7 +127,7 @@ Top 10 Desenvolvedoras que mais venderam no PS4 (2013-2018)<br>
 |2|Ubisoft|59\.16|
 |3|Electronic Arts|54\.96|
 |4|Sony Interactive Entertainment|54\.85|
-|5|EA Sports|47\.550000000000004|
+|5|EA Sports|47\.55|
 |6|Sony Computer Entertainment|42\.26|
 |7|Rockstar Games|33\.93|
 |8|Square Enix|29\.92|
@@ -162,8 +162,8 @@ Top 10 jogos mais vendidos para PS4 no mundo (2013-2018)<br>
 |1|Grand Theft Auto V|19\.39|
 |2|Call of Duty: Black Ops 3|15\.09|
 |3|Red Dead Redemption 2|13\.94|
-|4|Call of Duty: WWII|13\.4|
-|5|FIFA 18|11\.8|
+|4|Call of Duty: WWII|13\.40|
+|5|FIFA 18|11\.80|
 |6|FIFA 17|10\.94|
 |7|Uncharted \(PS4\)|10\.33|
 |8|Spider-Man \(PS4\)|8\.76|
@@ -215,8 +215,8 @@ Top 10 jogos mais vendidos para PS4 no Japão (2013-2018)
 |1|Monster Hunter: World|2\.17|
 |2|Dragon Quest XI|1\.43|
 |3|Final Fantasy XV|1\.05|
-|4|Grand Theft Auto V|0\.6|
-|5|Metal Gear Solid V: The Phantom Pain|0\.5|
+|4|Grand Theft Auto V|0\.60|
+|5|Metal Gear Solid V: The Phantom Pain|0\.50|
 |6|Persona 5|0\.48|
 |7|Dark Souls III|0\.44|
 |8|Knack|0\.42|
@@ -237,7 +237,7 @@ Top 10 jogos mais vendidos para PS4 no resto do mundo (2013-2018)
 |3|Red Dead Redemption 2|2\.26|
 |4|Call of Duty: WWII|2\.12|
 |5|FIFA 18|1\.73|
-|6|Uncharted \(PS4\)|1\.7|
+|6|Uncharted \(PS4\)|1\.70|
 |7|FIFA 17|1\.61|
 |8|Spider-Man \(PS4\)|1\.41|
 |9|Call of Duty: Infinite Warfare|1\.36|
