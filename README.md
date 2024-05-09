@@ -10,7 +10,32 @@ Código completo: [https://github.com/FranciscoAlveJr/Mercado-de-games](/Mercado
 <br>
 <br>
 > [!NOTE]
-> Este projeto possui como único propósito para uso acadêmico e estudo pessoal.
+> Este projeto possui como único propósito para uso acadêmico e estudo pessoal.<br>
+
+*******
+Sumário
+1. [Importando Bibliotecas](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#importando-bibliotecas)<br>
+2. [Importando o dataset](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#importando-o-banco-de-dados-do-dataset)<br>
+3. [Visualizando o número de linhas e colunas](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#visualizando-o-n%C3%BAmero-de-linhas-e-colunas)
+4. [Visualizando os nomes das colunas](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#visualizando-os-nomes-das-colunas)
+5. [Verificando valores nulos](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#verificando-valores-nulos)
+6. [Removendo valores nulos](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#removendo-valores-nulos)
+7. [Convertendo os anos, de decimal para inteiro](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#convertendo-os-anos-de-decimal-para-inteiro)
+8. [Verificando Vendas Globais](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#verificando-vendas-globais)
+9. [Mais de 10 milhões](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#mais-de-10-milh%C3%B5es)
+10. [Análise por continente](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#an%C3%A1lise-por-continente)
+11. [Top 10 Desenvolvedoras](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-desenvolvedoras)
+12. [Top 10 Gêneros](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-g%C3%AAneros)
+13. [Top 10 Jogos](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-jogos)
+14. [Top 10 América do Norte](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-am%C3%A9rica-do-norte)
+15. [Top 10 Europa](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-europa)
+16. [Top 10 Japão](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-jap%C3%A3o)
+17. [Top 10 Resto do Mundo](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#top-10-resto-do-mundo)
+18. [CONCLUSÃO](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#conclus%C3%A3o)
+19. [CAMPEÃ DAS DESENVOLVEDORAS](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#a-campe%C3%A3--das-desenvolvedoras-foi)
+20. [GÊNERO MAIS VENDIDO](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#o-g%C3%AAnero-mais-vendido--foi-de)
+21. [CAMPEÃO DOS JOGOS](https://github.com/FranciscoAlveJr/Mercado-de-games/edit/main/README.md#o-campe%C3%A3o--dos-jogos)
+*******
 ## Importando Bibliotecas
 ```
 import numpy as np
@@ -21,7 +46,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 ```
-## Importando o banco de dados do dataset
+## Importando o dataset
 ```
 df = pd.read_csv('PS4_GamesSales.csv', encoding='latin-1')
 ```
@@ -45,7 +70,7 @@ Ou seja, a tabela possui 1034 linhas e 9 colunas
 df.columns
 ```
 Colunas: 'Game', 'Year', 'Genre', 'Publisher', 'North America', 'Europe', 'Japan', 'Rest of World', 'Global'
-## Verficando valores nulos
+## Verificando valores nulos
 ```
 df.isnull().sum()
 ```
@@ -96,10 +121,12 @@ df = df.astype({'Year': int})
 |2014|2015|2018|2017|2017|---|2018|2017|2017|2018|2017|
 
 Agora os valores dos anos não apresentam mais ponto flutuante.
+
 ## Verificando Vendas Globais
 
 ![grafico_vendas_globais](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/97de76d1-e2e1-463b-a374-a0e4ae45c184)<br>
 É possível analisar que, houve um pico de vendas entre 2015 e 2016. Vendo pelo ponto de vista do mercado, o PlayStation 4 foi lançado em 2013, então é fácil presumir que o aumento nas vendas dos jogos se deve ao aumento das vendas do console nos anos seguintes.
+
 ## Mais de 10 milhões
 Os jogos que venderam mais de 10 milhões de cópias<br>
 |index|Game|Year|Genre|Publisher|North America|Europe|Japan|Rest of World|Global|
@@ -111,10 +138,12 @@ Os jogos que venderam mais de 10 milhões de cópias<br>
 |5|FIFA 18|2017|Sports|EA Sports|1\.27|8\.64|0\.15|1\.73|11\.8|
 |6|FIFA 17|2016|Sports|Electronic Arts|1\.26|7\.95|0\.12|1\.61|10\.94|
 |7|Uncharted \(PS4\)|2016|Action|Sony Interactive Entertainment|4\.49|3\.93|0\.21|1\.7|10\.33|
+
 ## Análise por continente
-![grafico_continentes](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/b27a3aef-4bda-4ef8-ad77-ce9abad6d10f)<br>
-Aqui é possível ver um certo equilíbrio nas vendas na América do Norte e Europa. Sendo o segundo, levemente maior.
-## Desenvolvedoras
+![graficos_pizza](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/a946ae64-0a5e-4fce-ae87-daa507f50d23)<br>
+O continente Europeu teve um maior número de vendas, mesmo em relação a América do Norte, que, apesar de compreender apenas Canadá e EUA, é um mercado de larga escala, principalmente, considerando os EUA.
+
+## Top 10 Desenvolvedoras
 Top 10 Desenvolvedoras que mais venderam no PS4 (2013-2018)<br>
 |index|Publisher|Global|
 |---|---|---|
@@ -131,7 +160,8 @@ Top 10 Desenvolvedoras que mais venderam no PS4 (2013-2018)<br>
 
 ![grafico_publisher](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/9355f77b-05a0-495c-9558-80aebb765f87)
 <br>
-## Gêneros
+
+## Top 10 Gêneros
 Top 10 gêneros mais vendidos no PS4 (2013-2018)
 |index|Genre|Global|
 |---|---|---|
@@ -148,6 +178,7 @@ Top 10 gêneros mais vendidos no PS4 (2013-2018)
 
 ![grafico_generos](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/f86eeff7-ebeb-4a26-8f46-f9e1bf9656a0)
 <br>
+
 ## Top 10 Jogos
 Top 10 jogos mais vendidos para PS4 no mundo (2013-2018)<br>
 |index|Game|Global|
@@ -164,6 +195,7 @@ Top 10 jogos mais vendidos para PS4 no mundo (2013-2018)<br>
 |10|Fallout 4|8\.48|
 
 ![grafico_jogos](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/acbff48a-f447-4968-bbda-db7856a777d4)
+
 ## Top 10 América do Norte
 Top 10 jogos mais vendidos para PS4 na América do Norte (2013-2018)<br>
 |index|Game|North America|
@@ -181,6 +213,7 @@ Top 10 jogos mais vendidos para PS4 na América do Norte (2013-2018)<br>
 
 ![grafico_america](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/b387940b-ff76-48fa-b98d-74735e1545f3)
 <br>
+
 ## Top 10 Europa
 Top 10 jogos mais vendidos para PS4 na Europa (2013-2018)
 |index|Game|Europe|
@@ -198,6 +231,7 @@ Top 10 jogos mais vendidos para PS4 na Europa (2013-2018)
 
 ![grafico_europa](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/b577597e-7ffe-44da-8fb2-9cca3054d460)
 <br>
+
 ## Top 10 Japão
 Top 10 jogos mais vendidos para PS4 no Japão (2013-2018)
 |index|Game|Japan|
@@ -217,6 +251,7 @@ Top 10 jogos mais vendidos para PS4 no Japão (2013-2018)
 <br>
 Aqui vale ressaltar que no Japão se diferencia dos outros países, tanto nos jogos, quanto nos gêneros.
 <br>
+
 ## Top 10 Resto do Mundo
 Top 10 jogos mais vendidos para PS4 no resto do mundo (2013-2018)
 |index|Game|Rest of World|
@@ -234,6 +269,7 @@ Top 10 jogos mais vendidos para PS4 no resto do mundo (2013-2018)
 
 ![grafico_resto](https://github.com/FranciscoAlveJr/Mercado-de-games/assets/65497402/6383f3c8-0a48-42f2-b563-9526c180fdd3)
 <br>
+
 # CONCLUSÃO
 ## A CAMPEÃ 🥇 DAS DESENVOLVEDORAS FOI...
 ![activision](https://tm.ibxk.com.br/2020/12/30/30130926491100.jpg?ims=704x264)<br>
