@@ -84,19 +84,23 @@ Foi preciso tirar valores com anos de 2019 e 2020, pois existem valores desprez�
 df = df.loc[(df['Year'] != 2019) & (df['Year'] != 2020)]
 ```
 ## Convertendo os anos, de decimal para inteiro
-Os valores dos anos est찾o apresentando ponto Flutuante.
+Os valores dos anos est찾o apresentando ponto flutuante.
 <br>
 |1|2|3|4|5|---|1025|1026|1027|1028|1029|
 |---|---|---|---|---|---|---|---|---|---|---|
 |2014\.0|2015\.0|2018\.0|2017\.0|2017\.0|---|2018\.0|2017\.0|2017\.0|2018\.0|2017\.0|
+
+Deve-se aplicar o seguinte c처digo:
+
 ```
 df = df.astype({'Year': int})
 ```
+
+Pronto, agora os valores dos anos n찾o apresentam mais ponto flutuante.
+
 |1|2|3|4|5|---|1025|1026|1027|1028|1029|
 |---|---|---|---|---|---|---|---|---|---|---|
 |2014|2015|2018|2017|2017|---|2018|2017|2017|2018|2017|
-
-Agora os valores dos anos n찾o apresentam mais ponto flutuante.
 
 ## Verificando Vendas Globais
 
