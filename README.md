@@ -12,6 +12,13 @@ Código completo: [https://github.com/FranciscoAlveJr/Mercado-de-games](/Mercado
 > [!NOTE]
 > Este projeto possui como único propósito para uso acadêmico e estudo pessoal.<br>
 
+## TECNOLOGIAS UTILIZADAS
+- [Python 3.10](https://www.python.org/) (Linguagem de Programação)
+- [Google Colab](https://colab.google/) (Editor de Código)
+- [Pandas 2.2.2](https://pandas.pydata.org/) (Tratamento de dados)
+- [Matplotlib 3.9.0](https://matplotlib.org/) (Visualização de dados)
+- [Seaborn 0.13.2](https://seaborn.pydata.org/) (Visualização de dados)
+
 ## Importando Bibliotecas
 ```
 import numpy as np
